@@ -1,0 +1,20 @@
+{
+  "title": "डैशबोर्ड",
+  "welcome": "वापसी पर स्वागत है, {{name}}!",
+  "quick_actions": "त्वरित कार्य",
+  "generate_now": "अभी बनाएं",
+  "plan_week": "मेरा हफ्ता प्लान करें",
+  "view_insights": "इनसाइट्स देखें",
+  "content_stats": "कंटेंट आंकड़े",
+  "total_posts": "कुल पोस्ट",
+  "this_week": "इस हफ्ते",
+  "engagement_rate": "एंगेजमेंट दर",
+  "upcoming_festivals": "आने वाले त्योहार",
+  "create_festival_post": "त्योहार पोस्ट बनाएं",
+  "trending_topics": "ट्रेंडिंग टॉपिक्स",
+  "ai_insights": "AI इनसाइट्स",
+  "streak": "स्ट्रीक",
+  "day_streak": "{{count}}-दिन की स्ट्रीक",
+  "weekly_goal": "साप्ताहिक लक्ष्य",
+  "posts_goal": "{{current}}/{{goal}} पोस्ट"
+}

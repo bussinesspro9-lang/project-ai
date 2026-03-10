@@ -1,0 +1,20 @@
+{
+  "title": "Dashboard",
+  "welcome": "Welcome back, {{name}}!",
+  "quick_actions": "Quick Actions",
+  "generate_now": "Generate Now",
+  "plan_week": "Plan My Week",
+  "view_insights": "View Insights",
+  "content_stats": "Content Stats",
+  "total_posts": "Total Posts",
+  "this_week": "This Week",
+  "engagement_rate": "Engagement Rate",
+  "upcoming_festivals": "Upcoming Festivals",
+  "create_festival_post": "Create Festival Post",
+  "trending_topics": "Trending Topics",
+  "ai_insights": "AI Insights",
+  "streak": "Streak",
+  "day_streak": "{{count}}-day streak",
+  "weekly_goal": "Weekly Goal",
+  "posts_goal": "{{current}}/{{goal}} posts"
+}

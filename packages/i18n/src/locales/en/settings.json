@@ -1,0 +1,19 @@
+{
+  "title": "Settings",
+  "profile": "Profile",
+  "business_profile": "Business Profile",
+  "ai_profile": "My AI Profile",
+  "personalization": "Personalization",
+  "personalization_toggle": "Let AI learn my preferences",
+  "personalization_description": "The more you use BusinessPro, the smarter it gets",
+  "notifications": "Notifications",
+  "language": "Language",
+  "referrals": "Invite & Earn",
+  "invite_friend": "Invite a friend",
+  "your_code": "Your referral code",
+  "privacy": "Privacy",
+  "advanced": "Advanced",
+  "reset_settings": "Reset All Settings",
+  "delete_account": "Delete Account",
+  "logout": "Logout"
+}

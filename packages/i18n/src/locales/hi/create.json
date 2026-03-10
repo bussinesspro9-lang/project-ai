@@ -1,0 +1,19 @@
+{
+  "title": "कंटेंट बनाएं",
+  "step1_title": "क्या और कहां",
+  "step2_title": "प्रीव्यू और एडिट",
+  "step3_title": "शेड्यूल या पोस्ट",
+  "select_platforms": "प्लेटफॉर्म चुनें",
+  "content_goal": "कंटेंट का उद्देश्य",
+  "generating": "AI आपका कंटेंट बना रहा है...",
+  "caption": "कैप्शन",
+  "hashtags": "हैशटैग",
+  "regenerate": "दोबारा बनाएं",
+  "copy_caption": "कैप्शन कॉपी करें",
+  "copy_hashtags": "हैशटैग कॉपी करें",
+  "share_whatsapp": "WhatsApp पर शेयर करें",
+  "schedule": "शेड्यूल करें",
+  "post_now": "अभी पोस्ट करें",
+  "pick_date": "तारीख और समय चुनें",
+  "content_ready": "आपका कंटेंट तैयार है!"
+}

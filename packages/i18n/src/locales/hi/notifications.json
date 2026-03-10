@@ -1,0 +1,11 @@
+{
+  "title": "नोटिफिकेशन",
+  "no_notifications": "कोई नई नोटिफिकेशन नहीं",
+  "mark_all_read": "सभी को पढ़ा हुआ चिह्नित करें",
+  "content_published": "आपकी पोस्ट {{platform}} पर प्रकाशित हो गई",
+  "plan_ready": "आपका साप्ताहिक प्लान तैयार है! देखें?",
+  "achievement_unlocked": "उपलब्धि अनलॉक: {{title}}",
+  "streak_reminder": "अपनी स्ट्रीक जारी रखें! आज पोस्ट करें",
+  "new_review": "{{author}} की नई {{platform}} समीक्षा",
+  "new_comment": "आपकी {{platform}} पोस्ट पर नई टिप्पणी"
+}

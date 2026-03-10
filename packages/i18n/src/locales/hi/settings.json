@@ -1,0 +1,19 @@
+{
+  "title": "सेटिंग्स",
+  "profile": "प्रोफ़ाइल",
+  "business_profile": "बिज़नेस प्रोफ़ाइल",
+  "ai_profile": "मेरी AI प्रोफ़ाइल",
+  "personalization": "व्यक्तिगतकरण",
+  "personalization_toggle": "AI को मेरी पसंद सीखने दें",
+  "personalization_description": "जितना ज़्यादा आप BusinessPro इस्तेमाल करेंगे, उतना स्मार्ट होगा",
+  "notifications": "नोटिफिकेशन",
+  "language": "भाषा",
+  "referrals": "दोस्तों को बुलाएं और कमाएं",
+  "invite_friend": "दोस्त को आमंत्रित करें",
+  "your_code": "आपका रेफ़रल कोड",
+  "privacy": "गोपनीयता",
+  "advanced": "एडवांस्ड",
+  "reset_settings": "सभी सेटिंग्स रीसेट करें",
+  "delete_account": "अकाउंट हटाएं",
+  "logout": "लॉगआउट"
+}

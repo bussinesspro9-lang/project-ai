@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+bun.lockb
+
+# Build outputs
+dist/
+**/dist/
+.next/
+**/.next/
+build/
+**/build/
+*.tsbuildinfo
+out/
+**/.turbo/
+
+# Mobile builds (Capacitor)
+our-app/mobile-builds/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets / credentials
+scripts/OAuth Creds/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temp
+tmp/
+temp/
+*.tmp
+
+# Uploads
+uploads/
+
+# External projects (not part of BusinessPro)
+scriptassist-main/

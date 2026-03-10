@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@businesspro/api-client": ["api-client/ui-clients"],
+      "@businesspro/api-client/*": ["api-client/ui-clients/*"],
+      "@businesspro/ai": ["ai/src"],
+      "@businesspro/ai/*": ["ai/src/*"],
+      "@businesspro/auth-ui": ["auth-ui/src"],
+      "@businesspro/auth-ui/*": ["auth-ui/src/*"],
+      "@businesspro/shared-utils": ["shared-utils/src"],
+      "@businesspro/shared-utils/*": ["shared-utils/src/*"]
+    }
+  },
+  "include": ["*/src", "*/ui-clients"],
+  "exclude": ["node_modules", "dist", "build", "coverage"]
+}

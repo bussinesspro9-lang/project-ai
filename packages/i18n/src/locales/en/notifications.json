@@ -1,0 +1,11 @@
+{
+  "title": "Notifications",
+  "no_notifications": "No new notifications",
+  "mark_all_read": "Mark all as read",
+  "content_published": "Your post was published on {{platform}}",
+  "plan_ready": "Your weekly plan is ready! Review it?",
+  "achievement_unlocked": "Achievement unlocked: {{title}}",
+  "streak_reminder": "Keep your streak going! Post today",
+  "new_review": "New {{platform}} review from {{author}}",
+  "new_comment": "New comment on your {{platform}} post"
+}

@@ -1,0 +1,48 @@
+node_modules
+**/node_modules
+
+# Build outputs
+dist
+**/dist
+.next
+**/.next
+out
+**/out
+build
+**/build
+
+# Mobile builds
+our-app/mobile-builds
+
+# Frontend app (not needed for API build — but package.json needed for bun workspace resolution)
+our-app
+!our-app/package.json
+
+# Dev/test files
+coverage
+**/.turbo
+*.tsbuildinfo
+
+# Env & secrets
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+.cursor
+
+# Logs
+*.log
+logs
+
+# Temp
+tmp
+temp
+
+# External reference projects
+scriptassist-main

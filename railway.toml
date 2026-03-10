@@ -1,0 +1,14 @@
+[deploy]
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
+# Migrations run here BEFORE the main process starts.
+# Railway waits for this command to exit (0 = success) before launching the app.
+# The health check does NOT begin until the main process starts, so long-running
+# migrations no longer cause health check failures.
+preDeployCommand = "node --dns-result-order=ipv4first api/dist/database/migrate.js"
+
+healthcheckPath = "/"
+# App now starts with DB_MIGRATIONS_RUN=false (no migrations at boot),
+# so it's HTTP-ready in ~10s. 60s is more than enough.
+healthcheckTimeout = 60

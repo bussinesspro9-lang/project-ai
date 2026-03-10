@@ -1,0 +1,42 @@
+import { Injectable } from '@nestjs/common';
+import { PassportStrategy } from '@nestjs/passport';
+import { Strategy, VerifyCallback, Profile } from 'passport-google-oauth20';
+import { ConfigService } from '@nestjs/config';
+
+@Injectable()
+export class GoogleStrategy extends PassportStrategy(Strategy, 'google') {
+  constructor(private configService: ConfigService) {
+    const backendUrl = configService.get<string>('BACKEND_URL');
+    const callbackPath = configService.get<string>('GOOGLE_CALLBACK_URL');
+    const fullCallbackUrl = `${backendUrl}${callbackPath}`;
+
+    super({
+      clientID: configService.get<string>('GOOGLE_CLIENT_ID'),
+      clientSecret: configService.get<string>('GOOGLE_CLIENT_SECRET'),
+      callbackURL: fullCallbackUrl,
+      scope: ['email', 'profile'],
+    });
+  }
+
+  async validate(
+    accessToken: string,
+    refreshToken: string,
+    profile: Profile,
+    done: VerifyCallback,
+  ): Promise<any> {
+    const { id, emails, photos } = profile;
+    const displayName = profile.displayName || profile.name?.givenName || '';
+
+    // Extract user information from Google profile
+    const user = {
+      googleId: id,
+      email: emails?.[0]?.value || '',
+      firstName: profile.name?.givenName || '',
+      lastName: profile.name?.familyName || '',
+      name: displayName,
+      picture: photos?.[0]?.value || '',
+    };
+
+    done(null, user);
+  }
+}
