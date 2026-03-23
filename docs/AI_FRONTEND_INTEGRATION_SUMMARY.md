@@ -22,7 +22,7 @@ The AI Model Database system (30+ models, intelligent selection, cost optimizati
 ### 1. Components
 - ✅ `our-app/components/create/content-preview.tsx`
   - Replaced generic task endpoint with specific `generateCaption` and `generateHashtags`
-  - Added AI metadata tracking (model, cost, duration)
+  - Added AI metadata tracking (model, cost, durationss)
   - Added visual AI badge with tooltip
   - Supports image/video URLs for vision analysis
 
